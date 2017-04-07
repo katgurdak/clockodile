@@ -1,0 +1,162 @@
+.app {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	font-family: Roboto;
+}
+
+.logo { /* Makes Trapezoid */
+	height: 0;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -120px;
+	border-top: 100px solid #32936F;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	z-index: 100;
+}
+
+.logo-text {
+	margin-top: -80%;
+  font-family: Pacifico, cursive;
+  font-size: 30px;
+  margin-left: -15%;
+}
+
+.nav {
+  align-self: flex-end;
+  width: 100%;
+  z-index: 101;
+  position: fixed;
+  top: 100%;
+  margin-top: -56px;
+}
+
+.main {
+	position: absolute;
+	top: 100px;
+  width: 100%;
+}
+
+.container {
+	height: 100%;
+}
+
+.clock {
+	height: 130px;
+  width: 390px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: #32936F;
+}
+
+.text {
+  font-size: 1.3em;
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+	font-size: 2em;
+}
+
+.wrapper {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.eventForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.space {
+	padding: 20px;
+}
+
+.navFiller {
+	height: 56px;
+	width: 100%;
+}
+
+#confetti {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.hide {
+	display: none;
+}
+
+.fa {
+	margin: 10px;
+	cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.fa-twitter {
+	padding:10px 14px;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.fa-twitter:hover {
+	background-color: #32936F;
+	color: #fff;
+}
+
+.fa-linkedin {
+	padding:10px 14px;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.fa-linkedin:hover {
+	background-color: #32936F;
+	color: #fff;
+}
+
+.fa-github {
+	padding:10px 14px;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.fa-github:hover {
+	background-color: #32936F;
+	color: #fff;
+}
+
